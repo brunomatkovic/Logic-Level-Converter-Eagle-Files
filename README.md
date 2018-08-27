@@ -3,17 +3,9 @@
 ![Croduino Pico](https://i0.wp.com/osijek.makerfaire.com/wp-content/uploads/sites/122/2018/04/e-radionica-featured.png?fit=2387%2C1830&ssl=1 "Croduino Pico")
 
 ## Description and details
-Croduino Pico is a sequel to Croduino Basic board. It is more simple than the Basic version since it doesn't have FTDI converter onboard so it needs another board which has one for programming(Croduino Basic, for example). It is imagined to be used for leaving in projects and products. 
+If you've ever tried to use 3.3V device inside 5V system, you know how complicated it can be. This Bi-directional logic level converter steps down 5V signals to 3.3V and steps up 3.3V signals to 5V at the same time. It can also work with 2.8V and 1.8V devices. This device has a capability of converting 4 pins of the high side to 4 pins of the low side with 2 inputs and 2 outputs provided for both sides.
 
-* Atmega328 microcontroller(32kB flash, 2kB RAM, 0.5kB EEPROM)
-* 22 I/O pins, 14 digital I/O, 6 PWM, 8 analog pins
-* Size only 3 x 5cm
-* LED light on the 13th pin
-* Voltage regulator for a possibility of external charging
-* Made in Croatia (EU)
-
-Should be set up as "Arduino Nano w/ Atmega328" in Arduino software. A project is OSH and files are available to download.
-
+Using this converter ain't a problem. Board needs to be powered from 2 voltage sources (high and low voltage) that your system is using. For example, 5V to HV, 3.3V to LV and system's ground to GND pin.
 ## Repository content
 This repo contains Cadsoft Eagle .sch and .brd files for Logic Level Converter board. Files have been arranged into folders for navigating between different versions of board. Tip: layer 200 shows top silkscreen and layer 208 should be bottom silkscreen. tParts and bParts is not used.
 
