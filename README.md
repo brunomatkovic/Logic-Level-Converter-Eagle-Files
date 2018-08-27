@@ -1,6 +1,6 @@
 # Logic Level Converter Eagle Files
 ## Image
-![Croduino Pico](https://e-radionica.com/media/catalog/product/d/s/dsc_8645.jpg "Croduino Pico")
+![Croduino Pico](https://i0.wp.com/osijek.makerfaire.com/wp-content/uploads/sites/122/2018/04/e-radionica-featured.png?fit=2387%2C1830&ssl=1 "Croduino Pico")
 
 ## Description and details
 Croduino Pico is a sequel to Croduino Basic board. It is more simple than the Basic version since it doesn't have FTDI converter onboard so it needs another board which has one for programming(Croduino Basic, for example). It is imagined to be used for leaving in projects and products. 
